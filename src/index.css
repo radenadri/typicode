@@ -1,0 +1,43 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  height: 100%;
+  max-width: 576px;
+
+  margin: 0 auto;
+  padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+main > section {
+  flex: 1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header > ul {
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+header > ul > li {
+  list-style: none;
+}
+
+section {
+  margin: 20px 0;
+}
